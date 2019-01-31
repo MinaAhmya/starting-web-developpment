@@ -1,0 +1,122 @@
+
+body{
+    background-color: rgb(224, 224, 224);
+}
+
+.PAGE{
+    width: 580px;
+    margin: auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+#Photo{
+    display: block;
+    border-radius:50%;
+    border: solid 4px rgb(204, 204, 204);
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+.presentation a{
+    display: block;
+    margin:auto;
+    padding-top: 2%;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+	border-radius:8px;
+	background:#d34836;
+    color:#fff;
+    text-decoration:none; 
+    
+}
+
+h1{
+    text-align: center;
+    color: rgb(221, 0, 0);
+}
+
+h2{
+    text-align: center;
+    color: rgb(82, 82, 82);
+    margin-bottom: 40px;
+}
+
+.presentation{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px rgba(173, 173, 173, 0.5);
+    
+}
+
+.liens{
+    background-color: white;
+    padding: auto;
+    margin-bottom: 20px;
+    line-height: 12em;
+    box-shadow: 2px 2px rgba(173, 173, 173, 0.5);
+    height: 150px;
+}
+
+ul{
+    list-style-type:none;
+    
+}
+
+li{
+    display: inline-block;
+    opacity: 0.3;
+    line-height:20px;
+    margin: 45px;
+    text-align: center;
+}
+
+li a{
+    text-decoration:none;  
+    color:rgb(0, 0, 0);     
+}
+
+
+.movies{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px rgba(173, 173, 173, 0.5);
+}
+
+.Titre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.SectionG{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 22%;
+}
+
+.SectionD{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%;
+}
+
+.imagesF img{
+    margin:20px;
+}
+
+.Film{
+    margin-bottom: 70px;
+    Line-Height: 1.5;
+}
+
+h3{
+    text-align: center;
+    color: rgb(82, 82, 82);  
+}
+
